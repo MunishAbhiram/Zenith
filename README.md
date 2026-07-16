@@ -4,7 +4,7 @@ Zenith is a premium weekly wellness dashboard designed for the Samsung Health ec
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 Zenith/
@@ -39,7 +39,7 @@ Zenith/
 
 ---
 
-## 🚀 Setup & Run Instructions
+## Setup & Run Instructions
 
 ### 1. Backend Setup (Python)
 Navigate to the backend folder and set up a virtual environment:
@@ -65,7 +65,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the live dashboard.
 
 ---
 
-## 🤝 Collaborative Guidelines
+## Collaborative Guidelines
 
 *   **TypeScript Types:** Keep all shared types and interfaces inside `frontend/src/types/index.ts`. Do not write inline interface declarations in your components.
 *   **Path Aliases:** Avoid relative imports like `../../utils/coaching`. Use `@/` path aliases defined in `tsconfig.json` (e.g., `import { CoachingMessage } from '@/types'`).
