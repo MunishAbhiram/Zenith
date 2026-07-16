@@ -26,12 +26,12 @@ export default function LandingPage() {
         </div>
       </nav>
 
-      <div className="max-w-[1400px] mx-auto px-4 md:px-12 pt-10 pb-24">
+      <div className="max-w-[1400px] mx-auto px-4 md:px-12 pt-20 md:pt-24 pb-24">
         
-        <div className="relative bg-[#D1F843] rounded-[2.5rem] md:rounded-[4rem] w-full min-h-[550px] md:min-h-[600px] flex flex-col md:flex-row items-center px-8 md:px-20 pt-16 md:pt-0 shadow-sm overflow-visible border border-black/5">
+        <div className="relative bg-[#D1F843] rounded-[2.5rem] md:rounded-[4rem] w-full min-h-[600px] md:min-h-[750px] flex flex-col md:flex-row items-center px-8 md:px-16 lg:px-24 pt-16 md:pt-0 shadow-sm overflow-visible border border-black/5">
           
-          <div className="w-full md:w-[55%] z-10 flex flex-col justify-center pb-12 md:pb-0 md:py-20">
-            <h1 className="font-display text-6xl md:text-[7rem] font-bold leading-[0.85] tracking-tighter text-[#005840] mb-8">
+          <div className="w-full md:w-[55%] z-10 flex flex-col justify-center pb-16 md:pb-0 md:py-16 pl-2 md:pl-8 lg:pl-12">
+            <h1 className="font-display text-6xl md:text-[6.5rem] font-bold leading-[0.85] tracking-tighter text-[#005840] mb-8">
               Peak<br />
               health,<br />
               synced.
@@ -49,11 +49,11 @@ export default function LandingPage() {
             </div>
           </div>
 
-          <div className="w-full md:w-[45%] absolute right-0 bottom-0 top-[-100%] pointer-events-none overflow-hidden rounded-b-[2.5rem] md:rounded-b-[4rem]">
+          <div className="w-full md:w-[45%] absolute right-0 bottom-0 top-[-200%] pointer-events-none overflow-hidden rounded-b-[2.5rem] md:rounded-b-[4rem]">
             <img 
               src="/mockup.png" 
               alt="Zenith Dashboard on Phone Mockup" 
-              className="absolute -bottom-20 md:-bottom-25 right-[-20px] md:right-8 w-auto h-[750px] md:h-[1100px] max-h-none object-contain object-right-bottom drop-shadow-2xl"
+              className="absolute -bottom-20 md:-bottom-35 right-0 md:right-10 lg:right-0 w-auto h-[1000px] md:h-[1200px] max-h-none object-contain object-right-bottom drop-shadow-2xl"
             />
           </div>
           
