@@ -100,33 +100,27 @@ A purely Python-based environment meant for exploratory data analysis (EDA), gen
 ### 1. Clone & Setup Frontend
 
 ```bash
-git clone https://github.com/projectakshith/Zenith.git
-cd Zenith/frontend
+cd backend
+python -m venv .venv
+.venv\Scripts\activate      # On Windows (or source .venv/bin/activate on Mac/Linux)
+pip insFrontend Setup (Next.js)
+
+Navigate to the frontend folder, install packages, and start the development server:
+
+cd frontend
 npm install
-```
-
-### 2. Environment Variables
-
-Create a `.env.local` file inside the `frontend/` directory:
-
-```env
-GROQ_API_KEY=your_groq_api_key_here
-```
-
-### 2. Frontend Setup (Next.js)
-
-Navigate to the frontend folder, install the required dependencies, and start the development server:
-
-```bash
 npm run dev
+
+Open http://localhost:3000 to view the live dashboard.
+
+The development server supports hot reloading, so changes are reflected instantly in the browser.tall -r requirements.txt
+```
+To run the data scripts (when implemented):
+```bash
+python scripts/process_metrics.py
 ```
 
-To access the application, open the following URL in your browser:
-
-```text
-http://localhost:3000
-```
-
+### 2. 
 
 ---
 
