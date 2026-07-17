@@ -42,6 +42,8 @@ At the heart of the dashboard is a robust Retrieval-Augmented Generation (RAG) p
 
 ## How It Works (GenAI Architecture)
 
+<img width="1022" height="1015" alt="architecture flow" src="https://github.com/user-attachments/assets/b237492d-964e-43aa-9fb1-82d40bea7fa2" />
+
 ```
 User asks a health question in the Chat UI
          │
